@@ -21,6 +21,12 @@ Cyan='\033[0;36m'         # Cyan
 #
 echo "$Cyan \n Updating System.. $Color_Off"
 sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y
+apt-get install -y \
+		htop \
+    screen \
+    aptitude \
+    zip \
+    nano 
 echo "$Green \n System Updated $Color_Off"
 
 #
@@ -41,3 +47,6 @@ echo "$Green \n Key has been added $Color_Off"
 # SCRIPT FINISHED
 #
 echo "$Green \n\n Script Finished $Color_Off"
+echo PermitRootLogin without-password
+echo systemctl restart sshd
+nano /etc/ssh/sshd_config
