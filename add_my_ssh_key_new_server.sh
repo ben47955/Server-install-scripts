@@ -49,5 +49,5 @@ echo "$Green \n Key has been added $Color_Off"
 echo "$Green \n\n Script Finished $Color_Off"
 echo PermitRootLogin without-password
 echo systemctl restart sshd
-echo /etc/ssh/sshd_config
-nano /etc/ssh/sshd_config
+echo nano /etc/ssh/sshd_config
+
