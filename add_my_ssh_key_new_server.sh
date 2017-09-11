@@ -20,7 +20,7 @@ Cyan='\033[0;36m'         # Cyan
 # UPDATE AND UPGRADE SYSTEM BEFORE INSTALLATION
 #
 echo "$Cyan \n Updating System.. $Color_Off"
-sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y
+apt-get update -y && apt-get upgrade -y && apt-get dist-upgrade -y
 apt-get install -y \
 		htop \
     screen \
