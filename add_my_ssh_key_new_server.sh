@@ -26,6 +26,9 @@ apt-get install -y \
     screen \
     aptitude \
     zip \
+    git \
+    mtr \
+    traceroute \
     nano 
 echo "$Green \n System Updated $Color_Off"
 
