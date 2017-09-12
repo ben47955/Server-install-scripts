@@ -23,6 +23,8 @@ echo "$Cyan \n Updating System.. $Color_Off"
 apt-get update -y && apt-get upgrade -y && apt-get dist-upgrade -y
 apt-get install -y \
 		htop \
+		iotop \
+		iftop \
     screen \
     aptitude \
     zip \
